@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
+<body>
 
-	<head>
-	<title>Jonas Blanchard's Portfolio></title>
+<h1>My First JavaScript</h1>
 
-	<link rel="stylesheet" href="styles.css">
-</head>
+<p id="demo">JavaScript can change the style of an HTML element.</p>
 
-	<body>
-		<a href="index.html">Home</a>
-		
-		<p>
-			 <script> 
-				 alert( 'Hello, world!' ) 
-			</script>
-		</p>
-	</body>
+<script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize = "25px"; 
+  document.getElementById("demo").style.color = "red";
+  document.getElementById("demo").style.backgroundColor = "yellow";        
+}
+</script>
 
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+</body>
 </html>
